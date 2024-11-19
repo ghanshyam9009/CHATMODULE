@@ -1,0 +1,26 @@
+
+
+.sidebar-container {
+    width: 25%;
+    background-color: #f1f1f1;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.chat-list {
+    list-style: none;
+    padding: 0;
+}
+
+.chat-preview {
+    cursor: pointer;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: #e0e0e0;
+    transition: background-color 0.3s;
+}
+
+.chat-preview:hover {
+    background-color: #c0c0c0;
+}

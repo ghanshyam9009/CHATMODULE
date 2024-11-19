@@ -1,0 +1,28 @@
+/* src/styles/AssistantCreation.css */
+.assistant-creation-container {
+    @apply bg-white p-6 rounded-lg shadow-md;
+}
+
+.form-title {
+    @apply text-2xl font-semibold mb-4 text-gray-800;
+}
+
+.assistant-creation-form {
+    @apply space-y-4;
+}
+
+.input-field {
+    @apply w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500;
+}
+
+.submit-button {
+    @apply w-full py-2 px-4 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition duration-200 ease-in-out;
+}
+
+.error-message {
+    @apply text-red-500 text-sm;
+}
+
+.success-message {
+    @apply text-green-500 text-sm;
+}

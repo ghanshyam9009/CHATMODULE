@@ -1,0 +1,64 @@
+/* Dashboard.css */
+
+.dashboard-container {
+    @apply min-h-screen bg-gray-50 p-6;
+}
+
+.dashboard-header {
+    @apply flex flex-col lg:flex-row items-center justify-between mb-6;
+}
+
+.dashboard-title {
+    @apply text-4xl font-bold mb-2;
+    color: #111827; /* Dark text */
+    transition: color 0.3s;
+}
+
+.dashboard-title:hover {
+    color: #3b82f6; /* Blue on hover */
+}
+
+.user-info {
+    @apply text-center lg:text-right text-gray-600;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 5px;
+}
+
+.user-name,
+.tenant-name {
+    @apply text-lg;
+    margin: 0;
+    color: #374151; /* Neutral text */
+}
+
+.user-name:hover,
+.tenant-name:hover {
+    color: #2563eb; /* Brighter blue on hover */
+    font-weight: 600; /* Slightly bold */
+}
+
+.dashboard-main {
+    @apply flex flex-col lg:flex-row gap-6;
+}
+
+.assistant-creation-section,
+.assistant-list-section {
+    @apply flex-1;
+}
+
+button {
+    @apply mt-4 px-4 py-2 text-white rounded-lg shadow-md;
+    background-color: #1d4ed8; /* Blue background */
+    transition: background-color 0.3s, transform 0.1s, box-shadow 0.3s;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+button:hover {
+    background-color: #2563eb; /* Brighter blue */
+    transform: scale(1.05); /* Slight zoom */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Elevated shadow */
+}

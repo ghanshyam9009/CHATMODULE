@@ -1,0 +1,68 @@
+/* 
+.user-data-container {
+    margin-bottom: 20px;
+}
+
+.user-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.user-item {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.user-item:hover {
+    background-color: #f0f0f0;
+}
+
+.user-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-date {
+    font-size: 12px;
+    color: gray;
+} */
+
+
+/* UserData.css */
+
+.user-data-container {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+}
+
+.user-list {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+}
+
+.user-list li {
+    display: flex;
+    justify-content: space-between; /* Space between username and count */
+    align-items: center; /* Center items vertically */
+    padding: 10px;
+    margin: 5px 0; /* Space between items */
+    border: 1px solid #ddd; /* Border for each user item */
+    border-radius: 4px; /* Rounded corners for user items */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.2s; /* Smooth transition for hover effect */
+}
+
+.user-list li:hover {
+    background-color: #f0f0f0; /* Highlight on hover */
+}
+
+.search-bar {
+    margin-bottom: 20px; /* Space below search bar */
+    padding: 10px; /* Padding for the input field */
+    border: 1px solid #ccc; /* Border for search bar */
+    border-radius: 4px; /* Rounded corners for search bar */
+    width: 100%; /* Full width */
+}

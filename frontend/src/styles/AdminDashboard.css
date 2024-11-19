@@ -1,0 +1,97 @@
+/* AdminDashboard.css */
+
+.admin-dashboard-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #f9fafb; /* Light background for the dashboard */
+    min-height: 100vh;
+}
+
+.admin-dashboard-header {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.admin-dashboard-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #1f2937; /* Dark heading color */
+    transition: color 0.3s;
+}
+
+.admin-dashboard-title:hover {
+    color: #3b82f6; /* Change color on hover */
+}
+
+.admin-user-info {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.admin-user-info p {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #374151; /* Neutral text color */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #1d4ed8; /* Blue background */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+    font-weight: 500;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #2563eb; /* Brighter blue on hover */
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Enhanced shadow */
+}
+
+.admin-dashboard-main {
+    display: flex;
+    gap: 20px;
+}
+
+.user-data-container,
+.user-assistants-container {
+    flex: 1;
+    min-width: 300px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #ffffff; /* White box background */
+}
+
+.user-data-container h2, 
+.user-assistants-container h2 {
+    color: #1f2937;
+    margin-bottom: 15px;
+    transition: color 0.3s;
+}
+
+.user-data-container h2:hover, 
+.user-assistants-container h2:hover {
+    color: #3b82f6; /* Blue on hover */
+}
+
+.user-data-container p,
+.user-assistants-container p {
+    margin-bottom: 8px;
+    font-size: 1.1rem;
+    color: #374151;
+}
+
+p span {
+    font-weight: bold;
+    color: #111827; /* Stronger text color */
+}

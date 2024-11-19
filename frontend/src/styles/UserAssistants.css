@@ -1,0 +1,40 @@
+
+
+/* UserAssistants.css */
+
+.user-assistants-container {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+}
+
+.assistants-list {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+}
+
+.assistants-list li {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: space-between; /* Place items at opposite ends */
+    align-items: center; /* Vertically center items */
+    padding: 10px;
+    margin: 10px 10px; /* Space between items */
+    border: 1px solid #ddd; /* Border for each assistant item */
+    border-radius: 4px; /* Rounded corners for assistant items */
+}
+
+.assistants-list li:hover {
+    background-color: #f0f0f0; /* Highlight on hover */
+}
+
+.no-assistants {
+    color: #666; /* Grey color for "no assistants" message */
+    text-align: center; /* Center text */
+}
+
+.search-bar {
+    margin-bottom: 20px; /* Space below search bar */
+    padding: 10px; /* Padding for the input field */
+    border: 1px solid #ccc; /* Border for search bar */
+    border-radius: 4px; /* Rounded corners for search bar */
+    width: 100%; /* Full width */
+}

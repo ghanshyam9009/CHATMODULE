@@ -1,0 +1,17 @@
+/* src/styles/ChatPage.css */
+/* .chat-page-container {
+    @apply flex h-screen;
+} */
+
+
+.chat-page-container {
+    @apply flex h-screen;
+}
+
+.sidebar-container {
+    @apply w-1/5 bg-gray-200 p-5 overflow-y-auto; /* Sidebar adjustments */
+}
+
+.chat-interface-container {
+    @apply flex-1 flex flex-col bg-gray-100 border border-gray-300 rounded-lg overflow-hidden;
+}
